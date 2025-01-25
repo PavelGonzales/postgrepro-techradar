@@ -18,8 +18,23 @@
 </head>
 
 <body>
+<div class="wrap">
+  <svg class="radar" id="radar"></svg>
 
-<svg class="radar" id="radar"></svg>
+    
+  <h3>Что такое техрадар?</h3>
+  
+  <p>
+    PostgresPro техрадар представляет собой список технологий, которые мы используем.
+  </p>
+  
+  <ul>
+  <li><strong>ADOPT</strong> &mdash; Технологии, в которых мы уверены и используем на постоянной основе.</li>
+  <li><strong>TRIAL</strong> &mdash; Технологии, которые мы решили попробовать и которые находятся на испытальном сроке.</li>
+  <li><strong>ASSESS</strong> &mdash; Технологии, которые являются многообещающими и имеют для нас явную потенциальную пользу.</li>
+  <li><strong>HOLD</strong> &mdash; Технологии, которые не рекомендуется использовать в новых проектах, но обычно их можно продолжать и в существующих проектах.</li>
+  </ul>
+</div>
 
 <script>
 fetch('./config.json').then(function(response) {

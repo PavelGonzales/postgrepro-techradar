@@ -24,8 +24,9 @@ td {
   text-decoration: underline;
 }
 
-body {
-  display: flex;
+.wrap {
+  width: 1450px;
+  margin: auto;
 }
 
 .radar {
