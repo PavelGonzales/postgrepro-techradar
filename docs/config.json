@@ -1,0 +1,131 @@
+{
+  "entries": [
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "TypeScript",
+      "link": "https://www.typescriptlang.org/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "NPM",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "PNPM",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "React",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "ESLint",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Prettier",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Vitest",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 3,
+      "label": "Vue",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 3,
+      "label": "webpack",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Vite",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "@hey-api/client-fetch",
+      "link": "https://heyapi.dev/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "@mui",
+      "link": "https://mui.com/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "@tanstack/react-query",
+      "link": "https://tanstack.com/query/latest",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "date-fns",
+      "link": "https://date-fns.org/",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "echarts",
+      "link": "https://echarts.apache.org/en/index.html",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 3,
+      "label": "@sweet-monads/either",
+      "link": "https://github.com/JSMonk/sweet-monads/tree/master/either",
+      "active": true,
+      "moved": 0
+    }
+    ,{
+      "quadrant": 2,
+      "ring": 0,
+      "label": "lodash",
+      "link": "https://lodash.com/",
+      "active": true,
+      "moved": 0
+    }
+  ]
+}
