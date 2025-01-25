@@ -1,30 +1,6 @@
-# Motivation
+# Techradar PostgresPro
 
-At [Zalando](http://zalando.de), we maintain a [public Tech
-Radar](http://zalando.github.io/tech-radar/) to help our engineering teams
-align on technology choices. It is based on the [pioneering work
-by ThoughtWorks](https://www.thoughtworks.com/radar).
-
-This repository contains the code to generate the visualization:
-[`radar.js`](/docs/radar.js) (based on [d3.js v4](https://d3js.org)).
-Feel free to use and adapt it for your own purposes.
-
-## Usage
-
-1. include `d3.js` and `radar.js`:
-
-```html
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://zalando.github.io/tech-radar/release/radar-0.11.js"></script>
-```
-
-2. insert an empty `svg` tag:
-
-```html
-<svg id="radar"></svg>
-```
-
-3. configure the radar visualization:
+## configure
 
 ```js
 radar_visualization({
@@ -71,12 +47,6 @@ radar_visualization({
 });
 ```
 
-Entries are positioned automatically so that they don't overlap. The "scale" parameter can help
-in adjusting the size of the radar.
-
-As a working example, you can check out `docs/index.html` &mdash; the source of our [public Tech
-Radar](http://zalando.github.io/tech-radar/).
-
 ## Deployment
 
 Tech Radar is a static page, so it can be deployed using any hosting provider of your choice offering static page hosting.
@@ -99,30 +69,4 @@ yarn start
  
 ```
 http://localhost:3000/
-```
-
-## License
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2017-2025 Zalando SE
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
 ```
